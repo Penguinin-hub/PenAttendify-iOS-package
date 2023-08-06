@@ -18,6 +18,6 @@ let package = Package(
     targets: [
         .binaryTarget(
                     name: "PenAttendify",
-                    path: "PenAttendify.xcframework")
+                    path: "source/PenAttendify/PenAttendify.xcframework")
     ]
 )
