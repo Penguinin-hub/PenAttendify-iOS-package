@@ -22,7 +22,6 @@
     - [didFailWithError(error:)](#didfailwitherrorerror)
   - [Error Handling](#error-handling)
   - [Deinitialization](#deinitialization)
-  - [Sample Code](#sample-code)
   - [Troubleshooting](#troubleshooting)
   - [FAQs](#faqs)
   - [Contact](#contact)
@@ -51,7 +50,7 @@ You can also use Swift Package Manager to integrate PenAttendify into your Xcode
 
 1. Open your Xcode project.
 2. Select File > Swift Packages > Add Package Dependency.
-3. Enter the URL of the PenAttendify repository: `https://github.com/Penguinin-hub/pen-attendify.git`
+3. Enter the URL of the PenAttendify repository: `https://github.com/Penguinin-hub/PenAttendify-iOS-package`
 4. Click Next and follow the on-screen instructions.
 
 
@@ -210,13 +209,11 @@ To release resources and properly deinitialize the PenAttendify framework, call 
 PenAttendify.deinitialize()
 ```
 
-## Sample Code
 
-For a complete understanding of how to integrate PenAttendify into your app, you can find a sample project [here](https://github.com/example/pen-attendify-demo).
 
 ## Troubleshooting
 
-If you encounter any issues or need further assistance, please refer to the [FAQs](#faqs) section or contact our support team at support@penattendify.com.
+If you encounter any issues or need further assistance, please refer to the [FAQs](#faqs) section or contact our support team at support@penguinIN.com.
 
 ## FAQs
 
@@ -330,7 +327,7 @@ A: If you don't set the delegate for PenAttendify, your app will not receive del
 
 ## Contact
 
-For any inquiries or assistance, please contact our support team at support@penattendify.com.
+For any inquiries or assistance, please contact our support team at support@penguinIN.com.
 
 
 
