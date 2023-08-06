@@ -22,9 +22,8 @@
     - [didFailWithError(error:)](#didfailwitherrorerror)
   - [Error Handling](#error-handling)
   - [Deinitialization](#deinitialization)
-  - [Troubleshooting](#troubleshooting)
   - [FAQs](#faqs)
-  - [Contact](#contact)
+  - [Contact \& Troubleshooting](#contact--troubleshooting)
 
 
 ## Introduction
@@ -36,7 +35,7 @@ This integration guide will walk you through the steps to integrate the PenAtten
 
 ## Requirements
 
-- iOS 12.0+
+- iOS 13.0+
 - Xcode 12.0+
 - Swift 5.0+
 
@@ -61,17 +60,17 @@ To integrate PenAttendify into your Xcode project manually, follow these steps:
 
 1. Download the PenAttendify framework from the provided link.
 
-2. Unzip the downloaded file, and you'll find `PenAttendify.framework` file.
+2. Unzip the downloaded file, and you'll find `PenAttendify.xcframework` file.
 
 3. In Xcode, open your project, and navigate to the project's **General** settings.
 
-4. Drag and drop the `PenAttendify.framework` file into the **Frameworks, Libraries, and Embedded Content** section.
+4. Drag and drop the `PenAttendify.xcframework` file into the **Frameworks, Libraries, and Embedded Content** section.
 
 5. Make sure to select the **Copy items if needed** option when adding the framework to your project.
 
-6. In the **Build Settings** tab, locate the **Framework Search Paths** section and add the path to the folder containing the `PenAttendify.framework`.
+6. In the **Build Settings** tab, locate the **Framework Search Paths** section and add the path to the folder containing the `PenAttendify.xcframework`.
 
-7. In the **Build Phases** tab, expand the **Embed Frameworks** section and ensure that `PenAttendify.framework` is listed.
+7. In the **Build Phases** tab, expand the **Embed Frameworks** section and ensure that `PenAttendify.xcframework` is listed.
 
 8. Build your project to ensure the integration was successful.
 
@@ -111,7 +110,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
                                                   companyName: "your_company_name",
                                                   companyId: "your_company_id")
     
-    PenAttendify.initialize(with: configuration)
+    PIAttendify.initialize(with: configuration)
     
     return true
 }
@@ -122,7 +121,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 After successful initialization, you can start scanning for nearby beacons by calling the `startScan()` method:
 
 ```swift
-PenAttendify.startScan()
+PIAttendify.startScan()
 ```
 
 ### Stop Scanning
@@ -130,7 +129,7 @@ PenAttendify.startScan()
 To stop the beacon scanning process, use the `stopScan()` method:
 
 ```swift
-PenAttendify.stopScan()
+PIAttendify.stopScan()
 ```
 
 ## Delegate Methods
@@ -206,27 +205,23 @@ The `PenAttendifyError` enum represents the possible errors that can occur in th
 To release resources and properly deinitialize the PenAttendify framework, call the `deinitialize()` method:
 
 ```swift
-PenAttendify.deinitialize()
+PIAttendify.deinitialize()
 ```
 
 
-
-## Troubleshooting
-
-If you encounter any issues or need further assistance, please refer to the [FAQs](#faqs) section or contact our support team at support@penguinIN.com.
 
 ## FAQs
 
 
 **Q: How can I check if the PenAttendify framework is already initialized?**
 
-A: You can use the `isIsInitialized()` method in the `PenAttendify` class to check the initialization status. This method returns a Boolean value indicating whether PenAttendify has been initialized or not.
+A: You can use the `isIsInitialized()` method in the `PIAttendify` class to check the initialization status. This method returns a Boolean value indicating whether PenAttendify has been initialized or not.
 
 ```swift
-if PenAttendify.isIsInitialized() {
-    print("PenAttendify is already initialized.")
+if PIAttendify.isIsInitialized() {
+    print("PIAttendify is already initialized.")
 } else {
-    print("PenAttendify is not yet initialized.")
+    print("PIAttendify is not yet initialized.")
 }
 ```
 
@@ -235,7 +230,7 @@ Alternatively, you can also use the delegate methods, such as `didFinishInitiali
 ```swift
 class MyClass: PenAttendifyDelegate {
     // ...
-    PenAttendify.delegate = self
+    PIAttendify.delegate = self
 }
 
 
@@ -243,12 +238,18 @@ class MyClass: PenAttendifyDelegate {
 
 ```swift
 func didFinishInitializing() {
-    print("PenAttendify has finished initializing.")
+    print("PIAttendify has finished initializing.")
     // Perform additional actions after successful initialization.
 }
 ```
 
+**Q: Can I use the PenAttendify Framework in a simulator or with the arm64_x86_64-simulator architecture during development?**
 
+A: Yes, for integration and development purposes, the PenAttendify Framework does support simulation and the arm64_x86_64-simulator architecture. You can test and integrate the framework in a simulated environment during the development process.
+
+**Q: Is it recommended to use the PenAttendify Framework on real iOS devices during actual use cases?**
+
+A: Yes, for real-world use cases and to ensure accurate results, it is strongly recommended to deploy and use the PenAttendify Framework on physical iOS devices with Bluetooth capabilities. This will ensure that the framework functions as expected and provides reliable proximity-based user location detection in real live scenarios.
 
 **Q: Can I customize the scan interval or other settings in PenAttendify?**
 
@@ -272,14 +273,14 @@ A: You should use the deinitialize() method when you want to release any allocat
 
 **Q: How can I receive events from PenAttendify?**
 
-A: To receive events from PenAttendify, you need to conform to the `PenAttendifyDelegate` protocol in your class and set the class as the delegate for PenAttendify by assigning `self` to `PenAttendify.delegate`. Once set, your class will receive notifications for various events triggered by PenAttendify.
+A: To receive events from PenAttendify, you need to conform to the `PenAttendifyDelegate` protocol in your class and set the class as the delegate for PenAttendify by assigning `self` to `PIAttendify.delegate`. Once set, your class will receive notifications for various events triggered by PenAttendify.
 
 ```swift
 class MyClass: PenAttendifyDelegate {
     // ...
 }
 
-PenAttendify.delegate = self
+PIAttendify.delegate = self
 ```
 
 **Q: When is the `didFinishInitializing()` delegate method called?**
@@ -293,7 +294,7 @@ func didFinishInitializing() {
 }
 ```
 
-**Q: How can I detect when PenAttendify starts scanning for beacons?**
+**Q: How can I detect when PIAttendify starts scanning for beacons?**
 
 A: The `didStartScanning()` delegate method is called when PenAttendify starts scanning for nearby beacons. You can use this event to display loading indicators or update the UI to inform the user that the scanning process has started.
 
@@ -304,7 +305,7 @@ func didStartScanning() {
 }
 ```
 
-**Q: How do I receive the scanned beacon data from PenAttendify?**
+**Q: How do I receive the scanned beacon data from PIAttendify?**
 
 A: The `didFinishScanning(results:)` delegate method provides the scanned beacon data as an array of tuples. Each tuple contains zone information from scanned beacons, including the zone ID, zone title (optional), and zone ratio (a value indicating signal strength or proximity).
 
@@ -318,17 +319,17 @@ func didFinishScanning(results: [(zoneId: Int, zoneTitle: String?, zoneRatio: Do
 }
 ```
 
-**Q: What happens if I don't set the delegate for PenAttendify?**
+**Q: What happens if I don't set the delegate for PIAttendify?**
 
 A: If you don't set the delegate for PenAttendify, your app will not receive delegate method calls. The delegate is essential for receiving events and data from PenAttendify. Ensure that you set the delegate to a class that conforms to `PenAttendifyDelegate` to handle the framework's events properly.
 
 ---
 
 
-## Contact
+ 
+## Contact & Troubleshooting
 
-For any inquiries or assistance, please contact our support team at support@penguinIN.com.
-
+If you encounter any issues or need further assistance, please refer to the [FAQs](#faqs) section or contact our support team at support@penattendify.com.
 
 
 ---
