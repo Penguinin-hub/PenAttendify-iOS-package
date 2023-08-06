@@ -1,0 +1,11 @@
+framework module PenAttendify {
+  umbrella header "PenAttendify.h"
+
+  export *
+  module * { export * }
+}
+
+module PenAttendify.Swift {
+  header "PenAttendify-Swift.h"
+  requires objc
+}
