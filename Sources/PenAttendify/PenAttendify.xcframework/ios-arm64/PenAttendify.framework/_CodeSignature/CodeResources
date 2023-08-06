@@ -18,23 +18,23 @@
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Lr/zo2QrMCTxt/16dj7zF3QKBDY=
+		BVgNUhJxER/H1YDemDjQEeBdlxA=
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		jkUbrSxM7zwTlchuJVHhCl2G7Wo=
+		DZcqiqIT0rTsvTQYoYG1Nm6TPhY=
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		C1Y42sP+T5ZnNdCq+BOMkaj+K3g=
+		RvPBo6uSxL3ybKVDBySxNBhdF2I=
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		jkUbrSxM7zwTlchuJVHhCl2G7Wo=
+		DZcqiqIT0rTsvTQYoYG1Nm6TPhY=
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		I4YUTjFc6RglNDjzKobUYywDMr8=
+		Pbo9sUQ/QliV0dZzWhI24X9HL0E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qvfEyz1wy48bQiQ0ZDMRETA/xTi0EVCc1gu/isorYF0=
+			a5VIJ/kklbc7UQS/py64Zcvk5l1gUzvyU7k9NFY+bws=
 			</data>
 		</dict>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EoJSyaQkqO99cQI+coiQbebsxNxAfSzGRHqn1+uSVFU=
+			tYynuS/+Rs8bF7nBCpTe3D5bAnM6alTGA1fGOXFCtwI=
 			</data>
 		</dict>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EQkYy5OqxbJYBdxX2CKGL+UsFA6sqJ1+FKWecSeGA/A=
+			w9xKfig/Vdt5oftGr7BbnpF824pbhPYs3p6voKYJzjI=
 			</data>
 		</dict>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EoJSyaQkqO99cQI+coiQbebsxNxAfSzGRHqn1+uSVFU=
+			tYynuS/+Rs8bF7nBCpTe3D5bAnM6alTGA1fGOXFCtwI=
 			</data>
 		</dict>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qbNa6zTAT9rTS8BzJx+geJlraqY629JAAvaFtekA9oM=
+			ilOG8AkDibk80PpWetCiWCDwnFELBr8YlzfChPAX6mk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -31,7 +31,7 @@ public protocol PenAttendifyDelegate : AnyObject {
   func didFinishScanning(results: [(zoneId: Swift.Int, zoneTitle: Swift.String?, zoneRatio: Swift.Double)])
   func didFailWithError(error: PenAttendify.PenAttendifyError)
 }
-@_hasMissingDesignatedInitializers public class PenAttendify {
+@_hasMissingDesignatedInitializers public class PIAttendify {
   weak public static var delegate: (any PenAttendify.PenAttendifyDelegate)?
   public static func initialize(with configuration: PenAttendify.PenAttendifyConfiguration)
   public static func startScan()

@@ -501,8 +501,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "PenAttendify",
-        "printedName": "PenAttendify",
+        "name": "PIAttendify",
+        "printedName": "PIAttendify",
         "children": [
           {
             "kind": "Var",
@@ -516,8 +516,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12PenAttendifyAAC8delegateAA0aB8Delegate_pSgvpZ",
-            "mangledName": "$s12PenAttendifyAAC8delegateAA0aB8Delegate_pSgvpZ",
+            "usr": "s:12PenAttendify11PIAttendifyC8delegateAA0aB8Delegate_pSgvpZ",
+            "mangledName": "$s12PenAttendify11PIAttendifyC8delegateAA0aB8Delegate_pSgvpZ",
             "moduleName": "PenAttendify",
             "static": true,
             "declAttributes": [
@@ -552,8 +552,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12PenAttendifyAAC8delegateAA0aB8Delegate_pSgvgZ",
-                "mangledName": "$s12PenAttendifyAAC8delegateAA0aB8Delegate_pSgvgZ",
+                "usr": "s:12PenAttendify11PIAttendifyC8delegateAA0aB8Delegate_pSgvgZ",
+                "mangledName": "$s12PenAttendify11PIAttendifyC8delegateAA0aB8Delegate_pSgvgZ",
                 "moduleName": "PenAttendify",
                 "static": true,
                 "implicit": true,
@@ -588,8 +588,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12PenAttendifyAAC8delegateAA0aB8Delegate_pSgvsZ",
-                "mangledName": "$s12PenAttendifyAAC8delegateAA0aB8Delegate_pSgvsZ",
+                "usr": "s:12PenAttendify11PIAttendifyC8delegateAA0aB8Delegate_pSgvsZ",
+                "mangledName": "$s12PenAttendify11PIAttendifyC8delegateAA0aB8Delegate_pSgvsZ",
                 "moduleName": "PenAttendify",
                 "static": true,
                 "implicit": true,
@@ -610,8 +610,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12PenAttendifyAAC8delegateAA0aB8Delegate_pSgvMZ",
-                "mangledName": "$s12PenAttendifyAAC8delegateAA0aB8Delegate_pSgvMZ",
+                "usr": "s:12PenAttendify11PIAttendifyC8delegateAA0aB8Delegate_pSgvMZ",
+                "mangledName": "$s12PenAttendify11PIAttendifyC8delegateAA0aB8Delegate_pSgvMZ",
                 "moduleName": "PenAttendify",
                 "static": true,
                 "implicit": true,
@@ -640,8 +640,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12PenAttendifyAAC10initialize4withyAA0aB13ConfigurationC_tFZ",
-            "mangledName": "$s12PenAttendifyAAC10initialize4withyAA0aB13ConfigurationC_tFZ",
+            "usr": "s:12PenAttendify11PIAttendifyC10initialize4withyAA0aB13ConfigurationC_tFZ",
+            "mangledName": "$s12PenAttendify11PIAttendifyC10initialize4withyAA0aB13ConfigurationC_tFZ",
             "moduleName": "PenAttendify",
             "static": true,
             "declAttributes": [
@@ -663,8 +663,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12PenAttendifyAAC9startScanyyFZ",
-            "mangledName": "$s12PenAttendifyAAC9startScanyyFZ",
+            "usr": "s:12PenAttendify11PIAttendifyC9startScanyyFZ",
+            "mangledName": "$s12PenAttendify11PIAttendifyC9startScanyyFZ",
             "moduleName": "PenAttendify",
             "static": true,
             "declAttributes": [
@@ -686,8 +686,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12PenAttendifyAAC8stopScanyyFZ",
-            "mangledName": "$s12PenAttendifyAAC8stopScanyyFZ",
+            "usr": "s:12PenAttendify11PIAttendifyC8stopScanyyFZ",
+            "mangledName": "$s12PenAttendify11PIAttendifyC8stopScanyyFZ",
             "moduleName": "PenAttendify",
             "static": true,
             "declAttributes": [
@@ -709,8 +709,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12PenAttendifyAAC12deinitializeyyFZ",
-            "mangledName": "$s12PenAttendifyAAC12deinitializeyyFZ",
+            "usr": "s:12PenAttendify11PIAttendifyC12deinitializeyyFZ",
+            "mangledName": "$s12PenAttendify11PIAttendifyC12deinitializeyyFZ",
             "moduleName": "PenAttendify",
             "static": true,
             "declAttributes": [
@@ -733,8 +733,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12PenAttendifyAAC15isIsInitializedSbyFZ",
-            "mangledName": "$s12PenAttendifyAAC15isIsInitializedSbyFZ",
+            "usr": "s:12PenAttendify11PIAttendifyC15isIsInitializedSbyFZ",
+            "mangledName": "$s12PenAttendify11PIAttendifyC15isIsInitializedSbyFZ",
             "moduleName": "PenAttendify",
             "static": true,
             "declAttributes": [
@@ -746,8 +746,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:12PenAttendifyAAC",
-        "mangledName": "$s12PenAttendifyAAC",
+        "usr": "s:12PenAttendify11PIAttendifyC",
+        "mangledName": "$s12PenAttendify11PIAttendifyC",
         "moduleName": "PenAttendify",
         "declAttributes": [
           "AccessControl",
@@ -1105,91 +1105,91 @@
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "BooleanLiteral",
-      "offset": 1389,
+      "offset": 1388,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "BooleanLiteral",
-      "offset": 1778,
+      "offset": 1775,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "BooleanLiteral",
-      "offset": 2144,
+      "offset": 2141,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 2322,
+      "offset": 2319,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 2337,
+      "offset": 2334,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 2468,
+      "offset": 2465,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "BooleanLiteral",
-      "offset": 2673,
+      "offset": 2670,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 2983,
+      "offset": 2980,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "BooleanLiteral",
-      "offset": 3006,
+      "offset": 3003,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 3441,
+      "offset": 3438,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 3489,
+      "offset": 3486,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 3495,
+      "offset": 3492,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 3709,
+      "offset": 3706,
       "length": 3,
       "value": "100"
     },
@@ -1294,112 +1294,112 @@
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 983,
+      "offset": 982,
       "length": 28,
       "value": "\"TagScannerPositionInterval\""
     },
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1180,
+      "offset": 1179,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1228,
+      "offset": 1227,
       "length": 23,
       "value": "\"ZoneDecisionThreshold\""
     },
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1450,
+      "offset": 1449,
       "length": 28,
       "value": "\"AttendanceBeaconRssiCutOff\""
     },
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1914,
+      "offset": 1913,
       "length": 94,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1925,
+      "offset": 1924,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1940,
+      "offset": 1939,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1955,
+      "offset": 1954,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1968,
+      "offset": 1967,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 2007,
+      "offset": 2006,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 2545,
+      "offset": 2543,
       "length": 88,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 2556,
+      "offset": 2554,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 2571,
+      "offset": 2569,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 2586,
+      "offset": 2584,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 2599,
+      "offset": 2597,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 2632,
+      "offset": 2630,
       "length": 1,
       "value": "\"\""
     },
@@ -1649,23 +1649,23 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/PenAttendify.swift",
+      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/PIAttendify.swift",
       "kind": "BooleanLiteral",
-      "offset": 390,
+      "offset": 388,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/PenAttendify.swift",
+      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/PIAttendify.swift",
       "kind": "BooleanLiteral",
-      "offset": 1588,
+      "offset": 1586,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/PenAttendify.swift",
+      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/PIAttendify.swift",
       "kind": "BooleanLiteral",
-      "offset": 2573,
+      "offset": 2571,
       "length": 5,
       "value": "false"
     },
@@ -1686,7 +1686,7 @@
     {
       "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BluetoothManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 941,
+      "offset": 939,
       "length": 4,
       "value": "true"
     },
