@@ -9,7 +9,6 @@
   - [Requirements](#requirements)
   - [Installation](#installation)
     - [Swift Package Manager (SPM)](#swift-package-manager-spm)
-    - [Manual Installation](#manual-installation)
   - [Getting Started](#getting-started)
   - [Usage](#usage)
     - [Initialize PenAttendify](#initialize-penattendify)
@@ -53,30 +52,6 @@ You can also use Swift Package Manager to integrate PenAttendify into your Xcode
 4. Click Next and follow the on-screen instructions.
 
 
-
-### Manual Installation
-
-To integrate PenAttendify into your Xcode project manually, follow these steps:
-
-1. Download the PenAttendify framework from the provided link.
-
-2. Unzip the downloaded file, and you'll find `PenAttendify.xcframework` file.
-
-3. In Xcode, open your project, and navigate to the project's **General** settings.
-
-4. Drag and drop the `PenAttendify.xcframework` file into the **Frameworks, Libraries, and Embedded Content** section.
-
-5. Make sure to select the **Copy items if needed** option when adding the framework to your project.
-
-6. In the **Build Settings** tab, locate the **Framework Search Paths** section and add the path to the folder containing the `PenAttendify.xcframework`.
-
-7. In the **Build Phases** tab, expand the **Embed Frameworks** section and ensure that `PenAttendify.xcframework` is listed.
-
-8. Build your project to ensure the integration was successful.
-
-Now, you have manually installed the PenAttendify framework in your project, and you can start using its features in your code.
-
----
 
 
 ## Getting Started
