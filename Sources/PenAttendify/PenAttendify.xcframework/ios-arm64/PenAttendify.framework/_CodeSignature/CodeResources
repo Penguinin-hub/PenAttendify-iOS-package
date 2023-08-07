@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		wez1Cpxx0MOmfcB6kbDoSfCsQ/w=
+		3RsgGhCfS1IbNkGrCiMo8L+vLvY=
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		juW4aDbPiYQb1+hYHH8azXCWSaQ=
+		zqEbJbqNVeTbmwYEuYN96IaklXU=
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		juW4aDbPiYQb1+hYHH8azXCWSaQ=
+		zqEbJbqNVeTbmwYEuYN96IaklXU=
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Sb72UTQFErRFgxWxqzJUo78hrTo=
+		mUNnpB/4p+sG5i3IvwKG8SZ7nic=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,14 +61,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aLYNlqZvrnjGL88vvVyXYqp6zQude7BucUa4VH7B/v4=
+			Q0aXVXfX5Y/1W1e8+PTqJPLi9xvPMDGhGlyOu9MUlSk=
 			</data>
 		</dict>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IE9NxjnJ1fMo0FxZdG0u4OdyqQ1qg5mo6j2F/ibfHyM=
+			AWO7lWWe61A53i1/7t9HKVJez54Pl2/L1OJOe9Ei5i8=
 			</data>
 		</dict>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IE9NxjnJ1fMo0FxZdG0u4OdyqQ1qg5mo6j2F/ibfHyM=
+			AWO7lWWe61A53i1/7t9HKVJez54Pl2/L1OJOe9Ei5i8=
 			</data>
 		</dict>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JNG/Op0LGUE+9U4Ut0U3lEpyfXtpOu1uPe3aPMs5Wn0=
+			ygD13ig9oPj1TscJ6sL8CxLjF40Be9yNTR8GAzAKwIQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

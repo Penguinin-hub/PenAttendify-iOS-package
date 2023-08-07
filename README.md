@@ -58,7 +58,7 @@ You can also use Swift Package Manager to integrate PenAttendify into your Xcode
 
 Before you start using PenAttendify in your app, you need to perform the following steps:
 
-1. **Obtain API Credentials**: Contact our support team to get your API credentials, including `clientName`, `clientKey`, `baseUrl`, `serviceName`, `companyName`, and `companyId`.
+1. **Obtain API Credentials**: Contact our support team to get your API credentials, including `clientName`, `clientKey`, `baseUrl`, `serviceName`.
 
 2. **Request Location Permissions**: Ensure that your app has the necessary location permissions to scan for beacons. Add the following key to your app's `Info.plist` file:
 
@@ -81,9 +81,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
     let configuration = PenAttendifyConfiguration(baseUrl: "your_base_url",
                                                   serviceName: "your_service_name",
                                                   clientName: "your_client_name",
-                                                  clientKey: "your_client_key",
-                                                  companyName: "your_company_name",
-                                                  companyId: "your_company_id")
+                                                  clientKey: "your_client_key")
     
     PIAttendify.initialize(with: configuration)
     
