@@ -37,7 +37,7 @@ public protocol PenAttendifyDelegate : AnyObject {
   public static func startScan()
   public static func stopScan()
   public static func deinitialize()
-  public static func isIsInitialized() -> Swift.Bool
+  public static func isInitialized() -> Swift.Bool
   @objc deinit
 }
 public enum PenAttendifyError {

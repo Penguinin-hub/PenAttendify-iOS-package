@@ -142,7 +142,7 @@ class MyClass: PenAttendifyDelegate {
 }
 
 // Set the delegate
-PenAttendify.delegate = self
+PIAttendify.delegate = self
 ```
 
 ### didFinishInitializing()
@@ -261,12 +261,12 @@ A: PenAttendify is designed to work as a singleton instance in your app. Running
 
 **Q: How can I update the configuration after initializing PenAttendify?**
 
-A: Once PenAttendify is initialized, the configuration cannot be directly updated. To change the configuration, you need to deinitialize PenAttendify and then initialize it again with the updated configuration. Make sure to call PenAttendify.deinitialize() before calling PenAttendify.initialize() with the new configuration.
+A: Once PenAttendify is initialized, the configuration cannot be directly updated. To change the configuration, you need to deinitialize PenAttendify and then initialize it again with the updated configuration. Make sure to call PIAttendify.deinitialize() before calling PIAttendify.initialize() with the new configuration.
 
 **Q: Can I use PenAttendify with background app refresh enabled?**
 No, it does not support background processes.
 
-**Q: When should I use the PenAttendify.deinitialize() method?**
+**Q: When should I use the PIAttendify.deinitialize() method?**
 
 A: You should use the deinitialize() method when you want to release any allocated resources and stop using the PenAttendify framework in your app. It is recommended to call deinitialize() before reinitializing PenAttendify with a new configuration or when your app no longer needs to use the framework.
 
@@ -329,7 +329,7 @@ A: If you don't set the delegate for PenAttendify, your app will not receive del
  
 ## Contact & Troubleshooting
 
-If you encounter any issues or need further assistance, please refer to the [FAQs](#faqs) section or contact our support team at support@penattendify.com.
+If you encounter any issues or need further assistance, please refer to the [FAQs](#faqs) section or contact our support team at devsupport@penguinin.com.
 
 
 ---
