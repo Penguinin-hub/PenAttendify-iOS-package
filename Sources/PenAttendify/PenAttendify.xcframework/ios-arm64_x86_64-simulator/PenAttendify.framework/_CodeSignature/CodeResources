@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		wez1Cpxx0MOmfcB6kbDoSfCsQ/w=
+		3RsgGhCfS1IbNkGrCiMo8L+vLvY=
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ajeg0cO3jfEPViT7ZmH6dqbNdBY=
+		J9BlsvF3hHoHAIRutwz0W21V7Tw=
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ajeg0cO3jfEPViT7ZmH6dqbNdBY=
+		J9BlsvF3hHoHAIRutwz0W21V7Tw=
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		h89wGSIyE2BeG6YVDufqezHRpb4=
+		crnYhmapOg22oICbrrvARvRh+v0=
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		wez1Cpxx0MOmfcB6kbDoSfCsQ/w=
+		3RsgGhCfS1IbNkGrCiMo8L+vLvY=
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		r3vkwvBPuRZpjjyLsKk3TjtaqE8=
+		kUUXaTq3A31BSoamx0K8FEguwLc=
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		r3vkwvBPuRZpjjyLsKk3TjtaqE8=
+		kUUXaTq3A31BSoamx0K8FEguwLc=
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		voWHbV//1oUoCnzXTa3OHifnATY=
+		B4nDxotleb1mQuKJM0js5HzU4us=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aLYNlqZvrnjGL88vvVyXYqp6zQude7BucUa4VH7B/v4=
+			Q0aXVXfX5Y/1W1e8+PTqJPLi9xvPMDGhGlyOu9MUlSk=
 			</data>
 		</dict>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n216C/SYVJdXbF1UevMMcJ4FWJzzrw9juSUNBQOSc1M=
+			Fglv20VnmXrcyfSzTXKuMoRMZ7hmiv8pfOEu1hraKb4=
 			</data>
 		</dict>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n216C/SYVJdXbF1UevMMcJ4FWJzzrw9juSUNBQOSc1M=
+			Fglv20VnmXrcyfSzTXKuMoRMZ7hmiv8pfOEu1hraKb4=
 			</data>
 		</dict>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IWihD7WkmgrXrURbthgFtx/tDb3z4z+TEZ75Y6uw+Lo=
+			UI6zP5uDuGyC4vbvMv/p7k2EZ9F4X/1WpAxNwjvmMr4=
 			</data>
 		</dict>
 		<key>Modules/PenAttendify.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aLYNlqZvrnjGL88vvVyXYqp6zQude7BucUa4VH7B/v4=
+			Q0aXVXfX5Y/1W1e8+PTqJPLi9xvPMDGhGlyOu9MUlSk=
 			</data>
 		</dict>
 		<key>Modules/PenAttendify.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			udgyrsMfu9WK8TBcNkX4ou5dx4RYMVk7fFKaM3TKBjQ=
+			Ar/AviAkGtWpVkQh+b2etqJAIlYEsTB+Gt3TqFotDig=
 			</data>
 		</dict>
 		<key>Modules/PenAttendify.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			udgyrsMfu9WK8TBcNkX4ou5dx4RYMVk7fFKaM3TKBjQ=
+			Ar/AviAkGtWpVkQh+b2etqJAIlYEsTB+Gt3TqFotDig=
 			</data>
 		</dict>
 		<key>Modules/PenAttendify.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yy2mv3sF1uHdYnPxm9W+57G2xWsZ/29LvL4r7nr0jEw=
+			HkIC6UXVRQfUTUYpwdsSWJdbAVS6vokiTzp+NhGXU04=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

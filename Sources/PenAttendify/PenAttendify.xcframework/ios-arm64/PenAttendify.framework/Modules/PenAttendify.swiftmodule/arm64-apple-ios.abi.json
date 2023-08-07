@@ -52,7 +52,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(baseUrl:serviceName:clientName:clientKey:companyName:companyId:)",
+            "printedName": "init(baseUrl:serviceName:clientName:clientKey:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -83,23 +83,11 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12PenAttendify0aB13ConfigurationC7baseUrl11serviceName06clientG00H3Key07companyG00J2IdACSS_S5Stcfc",
-            "mangledName": "$s12PenAttendify0aB13ConfigurationC7baseUrl11serviceName06clientG00H3Key07companyG00J2IdACSS_S5Stcfc",
+            "usr": "s:12PenAttendify0aB13ConfigurationC7baseUrl11serviceName06clientG00H3KeyACSS_S3Stcfc",
+            "mangledName": "$s12PenAttendify0aB13ConfigurationC7baseUrl11serviceName06clientG00H3KeyACSS_S3Stcfc",
             "moduleName": "PenAttendify",
             "declAttributes": [
               "AccessControl"
@@ -240,58 +228,6 @@
             "declKind": "Func",
             "usr": "s:12PenAttendify0aB20ConfigurationBuilderC12setClientKeyyACXDSSF",
             "mangledName": "$s12PenAttendify0aB20ConfigurationBuilderC12setClientKeyyACXDSSF",
-            "moduleName": "PenAttendify",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setCompanyName",
-            "printedName": "setCompanyName(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "DynamicSelf",
-                "printedName": "Self"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12PenAttendify0aB20ConfigurationBuilderC14setCompanyNameyACXDSSF",
-            "mangledName": "$s12PenAttendify0aB20ConfigurationBuilderC14setCompanyNameyACXDSSF",
-            "moduleName": "PenAttendify",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setCompanyId",
-            "printedName": "setCompanyId(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "DynamicSelf",
-                "printedName": "Self"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12PenAttendify0aB20ConfigurationBuilderC12setCompanyIdyACXDSSF",
-            "mangledName": "$s12PenAttendify0aB20ConfigurationBuilderC12setCompanyIdyACXDSSF",
             "moduleName": "PenAttendify",
             "declAttributes": [
               "AccessControl"
@@ -1238,168 +1174,196 @@
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 267,
-      "length": 2,
+      "offset": 437,
+      "length": 81,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 290,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 485,
-      "length": 89,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 496,
+      "offset": 448,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 511,
+      "offset": 463,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 526,
+      "offset": 466,
+      "length": 9,
+      "value": "\"company\""
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 476,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 539,
+      "offset": 479,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 483,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 573,
+      "offset": 517,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 982,
+      "offset": 926,
       "length": 28,
       "value": "\"TagScannerPositionInterval\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1179,
+      "offset": 1123,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1227,
+      "offset": 1171,
       "length": 23,
       "value": "\"ZoneDecisionThreshold\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1449,
+      "offset": 1393,
       "length": 28,
       "value": "\"AttendanceBeaconRssiCutOff\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1913,
-      "length": 94,
+      "offset": 1857,
+      "length": 86,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1924,
+      "offset": 1868,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1939,
+      "offset": 1883,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1954,
+      "offset": 1886,
+      "length": 9,
+      "value": "\"company\""
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1896,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1967,
+      "offset": 1899,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1903,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 2006,
+      "offset": 1942,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 2543,
-      "length": 88,
+      "offset": 2479,
+      "length": 80,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 2554,
+      "offset": 2490,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 2569,
+      "offset": 2505,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 2584,
+      "offset": 2508,
+      "length": 9,
+      "value": "\"company\""
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2518,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 2597,
+      "offset": 2521,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2525,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 2630,
+      "offset": 2558,
       "length": 1,
       "value": "\"\""
     },
@@ -1609,42 +1573,28 @@
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/PenAttendifyConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2013,
+      "offset": 1521,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/PenAttendifyConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2086,
+      "offset": 1594,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/PenAttendifyConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2157,
+      "offset": 1665,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/PenAttendifyConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2226,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/PenAttendifyConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 2299,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/PenAttendifyConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 2368,
+      "offset": 1734,
       "length": 2,
       "value": "\"\""
     },
@@ -1658,14 +1608,14 @@
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/PIAttendify.swift",
       "kind": "BooleanLiteral",
-      "offset": 1588,
+      "offset": 1456,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/PIAttendify.swift",
       "kind": "BooleanLiteral",
-      "offset": 2575,
+      "offset": 2443,
       "length": 5,
       "value": "false"
     },

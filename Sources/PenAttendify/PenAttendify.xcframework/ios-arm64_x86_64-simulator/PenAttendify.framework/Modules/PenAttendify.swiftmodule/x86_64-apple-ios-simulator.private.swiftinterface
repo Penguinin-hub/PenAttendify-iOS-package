@@ -11,7 +11,7 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 public class PenAttendifyConfiguration {
-  public init(baseUrl: Swift.String, serviceName: Swift.String, clientName: Swift.String, clientKey: Swift.String, companyName: Swift.String, companyId: Swift.String)
+  public init(baseUrl: Swift.String, serviceName: Swift.String, clientName: Swift.String, clientKey: Swift.String)
   @objc deinit
 }
 public class PenAttendifyConfigurationBuilder {
@@ -20,8 +20,6 @@ public class PenAttendifyConfigurationBuilder {
   public func setServiceName(_ serviceName: Swift.String) -> Self
   public func setClientName(_ clientName: Swift.String) -> Self
   public func setClientKey(_ clientKey: Swift.String) -> Self
-  public func setCompanyName(_ companyName: Swift.String) -> Self
-  public func setCompanyId(_ companyId: Swift.String) -> Self
   public func build() -> PenAttendify.PenAttendifyConfiguration
   @objc deinit
 }
