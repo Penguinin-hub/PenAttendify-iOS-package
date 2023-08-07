@@ -722,8 +722,8 @@
           },
           {
             "kind": "Function",
-            "name": "isIsInitialized",
-            "printedName": "isIsInitialized()",
+            "name": "isInitialized",
+            "printedName": "isInitialized()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -733,8 +733,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12PenAttendify11PIAttendifyC15isIsInitializedSbyFZ",
-            "mangledName": "$s12PenAttendify11PIAttendifyC15isIsInitializedSbyFZ",
+            "usr": "s:12PenAttendify11PIAttendifyC13isInitializedSbyFZ",
+            "mangledName": "$s12PenAttendify11PIAttendifyC13isInitializedSbyFZ",
             "moduleName": "PenAttendify",
             "static": true,
             "declAttributes": [
@@ -1054,651 +1054,651 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "Array",
       "offset": 472,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "BooleanLiteral",
       "offset": 496,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "FloatLiteral",
       "offset": 524,
       "length": 7,
       "value": "-1000.0"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "IntegerLiteral",
       "offset": 557,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "IntegerLiteral",
       "offset": 590,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "FloatLiteral",
       "offset": 615,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "BooleanLiteral",
       "offset": 842,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "BooleanLiteral",
       "offset": 1388,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "BooleanLiteral",
       "offset": 1775,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "BooleanLiteral",
       "offset": 2141,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "IntegerLiteral",
       "offset": 2319,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "IntegerLiteral",
       "offset": 2334,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "IntegerLiteral",
       "offset": 2465,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "BooleanLiteral",
       "offset": 2670,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "IntegerLiteral",
       "offset": 2980,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "BooleanLiteral",
       "offset": 3003,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "IntegerLiteral",
       "offset": 3438,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "IntegerLiteral",
       "offset": 3486,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "IntegerLiteral",
       "offset": 3492,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "IntegerLiteral",
       "offset": 3706,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/ResponseModels\/TokenResponseModel.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/ResponseModels\/TokenResponseModel.swift",
       "kind": "StringLiteral",
       "offset": 248,
       "length": 7,
       "value": "\"Token\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/ResponseModels\/TokenResponseModel.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/ResponseModels\/TokenResponseModel.swift",
       "kind": "StringLiteral",
       "offset": 248,
       "length": 7,
       "value": "\"Token\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 170,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 195,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 219,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 242,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 267,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 290,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 485,
       "length": 89,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 496,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 511,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 526,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 539,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 573,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 982,
       "length": 28,
       "value": "\"TagScannerPositionInterval\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "IntegerLiteral",
       "offset": 1179,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 1227,
       "length": 23,
       "value": "\"ZoneDecisionThreshold\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 1449,
       "length": 28,
       "value": "\"AttendanceBeaconRssiCutOff\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 1913,
       "length": 94,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 1924,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 1939,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 1954,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 1967,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 2006,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 2543,
       "length": 88,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 2554,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 2569,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 2584,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 2597,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 2630,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 179,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "BooleanLiteral",
       "offset": 641,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 740,
       "length": 13,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 752,
       "length": 4,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 1093,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 1133,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 1438,
       "length": 31,
       "value": "\"Bearer \""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 1468,
       "length": 24,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 1491,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "IntegerLiteral",
       "offset": 1851,
       "length": 3,
       "value": "401"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 2674,
       "length": 82,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 2697,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 2724,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 2755,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 2783,
       "length": 6,
       "value": "\"Name\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 2797,
       "length": 5,
       "value": "\"Key\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 3003,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 3096,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 3118,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 3096,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 3118,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 3176,
       "length": 21,
       "value": "\"attendance\/settings\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 3223,
       "length": 17,
       "value": "\"attendance\/uuid\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 3260,
       "length": 19,
       "value": "\"attendance\/beacon\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 3176,
       "length": 21,
       "value": "\"attendance\/settings\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 3223,
       "length": 17,
       "value": "\"attendance\/uuid\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 3260,
       "length": 19,
       "value": "\"attendance\/beacon\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 3328,
       "length": 22,
       "value": "\"AuthAPI.svc\/GetToken\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 3328,
       "length": 22,
       "value": "\"AuthAPI.svc\/GetToken\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/PenAttendifyConfiguration.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/PenAttendifyConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2013,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/PenAttendifyConfiguration.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/PenAttendifyConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2086,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/PenAttendifyConfiguration.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/PenAttendifyConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2157,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/PenAttendifyConfiguration.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/PenAttendifyConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2226,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/PenAttendifyConfiguration.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/PenAttendifyConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2299,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/PenAttendifyConfiguration.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/PenAttendifyConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2368,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/PIAttendify.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/PIAttendify.swift",
       "kind": "BooleanLiteral",
-      "offset": 388,
+      "offset": 389,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/PIAttendify.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/PIAttendify.swift",
       "kind": "BooleanLiteral",
-      "offset": 1586,
+      "offset": 1588,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/PIAttendify.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/PIAttendify.swift",
       "kind": "BooleanLiteral",
-      "offset": 2571,
+      "offset": 2575,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BluetoothManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BluetoothManager.swift",
       "kind": "BooleanLiteral",
       "offset": 480,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BluetoothManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BluetoothManager.swift",
       "kind": "BooleanLiteral",
       "offset": 733,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/BluetoothManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BluetoothManager.swift",
       "kind": "BooleanLiteral",
       "offset": 939,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/ResponseModels\/BeaconRegionsResponseModel.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/ResponseModels\/BeaconRegionsResponseModel.swift",
       "kind": "StringLiteral",
       "offset": 315,
       "length": 10,
       "value": "\"UUIDData\""
     },
     {
-      "filePath": "\/Users\/Waseela_1\/Downloads\/PenAttendify-iOS\/PenAttendify\/PenAttendify\/ResponseModels\/BeaconRegionsResponseModel.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/ResponseModels\/BeaconRegionsResponseModel.swift",
       "kind": "StringLiteral",
       "offset": 315,
       "length": 10,
