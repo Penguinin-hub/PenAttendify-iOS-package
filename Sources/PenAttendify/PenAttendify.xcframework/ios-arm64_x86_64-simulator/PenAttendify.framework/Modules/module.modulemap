@@ -1,7 +1,7 @@
 framework module PenAttendify {
   umbrella header "PenAttendify.h"
-
   export *
+
   module * { export * }
 }
 

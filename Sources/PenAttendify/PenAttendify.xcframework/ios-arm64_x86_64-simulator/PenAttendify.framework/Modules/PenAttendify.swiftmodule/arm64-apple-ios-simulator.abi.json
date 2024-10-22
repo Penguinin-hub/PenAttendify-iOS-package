@@ -1,9 +1,29 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "PenAttendify",
+    "printedName": "PenAttendify",
     "children": [
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "PenAttendify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PenAttendify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
       {
         "kind": "Import",
         "name": "CoreLocation",
@@ -45,6 +65,36 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "PenAttendify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PenAttendify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PenAttendify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "PenAttendifyConfiguration",
         "printedName": "PenAttendifyConfiguration",
@@ -52,7 +102,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(baseUrl:serviceName:clientName:clientKey:)",
+            "printedName": "init(baseUrl:serviceName:clientName:clientKey:userId:companyId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -83,11 +133,23 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12PenAttendify0aB13ConfigurationC7baseUrl11serviceName06clientG00H3KeyACSS_S3Stcfc",
-            "mangledName": "$s12PenAttendify0aB13ConfigurationC7baseUrl11serviceName06clientG00H3KeyACSS_S3Stcfc",
+            "usr": "s:12PenAttendify0aB13ConfigurationC7baseUrl11serviceName06clientG00H3Key6userId07companyK0ACSS_S5Stcfc",
+            "mangledName": "$s12PenAttendify0aB13ConfigurationC7baseUrl11serviceName06clientG00H3Key6userId07companyK0ACSS_S5Stcfc",
             "moduleName": "PenAttendify",
             "declAttributes": [
               "AccessControl"
@@ -102,6 +164,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -236,6 +314,58 @@
           },
           {
             "kind": "Function",
+            "name": "setUserId",
+            "printedName": "setUserId(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PenAttendify0aB20ConfigurationBuilderC9setUserIdyACXDSSF",
+            "mangledName": "$s12PenAttendify0aB20ConfigurationBuilderC9setUserIdyACXDSSF",
+            "moduleName": "PenAttendify",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCompanyId",
+            "printedName": "setCompanyId(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PenAttendify0aB20ConfigurationBuilderC12setCompanyIdyACXDSSF",
+            "mangledName": "$s12PenAttendify0aB20ConfigurationBuilderC12setCompanyIdyACXDSSF",
+            "moduleName": "PenAttendify",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "build",
             "printedName": "build()",
             "children": [
@@ -263,6 +393,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -433,6 +579,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -448,7 +610,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "PenAttendify.PenAttendifyDelegate?"
+                "printedName": "(any PenAttendify.PenAttendifyDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -475,12 +637,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "PenAttendify.PenAttendifyDelegate?",
+                    "printedName": "(any PenAttendify.PenAttendifyDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "PenAttendifyDelegate",
-                        "printedName": "PenAttendify.PenAttendifyDelegate",
+                        "printedName": "any PenAttendify.PenAttendifyDelegate",
                         "usr": "s:12PenAttendify0aB8DelegateP"
                       }
                     ],
@@ -511,12 +673,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "PenAttendify.PenAttendifyDelegate?",
+                    "printedName": "(any PenAttendify.PenAttendifyDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "PenAttendifyDelegate",
-                        "printedName": "PenAttendify.PenAttendifyDelegate",
+                        "printedName": "any PenAttendify.PenAttendifyDelegate",
                         "usr": "s:12PenAttendify0aB8DelegateP"
                       }
                     ],
@@ -635,6 +797,28 @@
           },
           {
             "kind": "Function",
+            "name": "clearData",
+            "printedName": "clearData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PenAttendify11PIAttendifyC9clearDatayyFZ",
+            "mangledName": "$s12PenAttendify11PIAttendifyC9clearDatayyFZ",
+            "moduleName": "PenAttendify",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "deinitialize",
             "printedName": "deinitialize()",
             "children": [
@@ -689,7 +873,43 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PenAttendify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "PenAttendify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -827,54 +1047,525 @@
             ]
           },
           {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
+            "kind": "Var",
+            "name": "serverError",
+            "printedName": "serverError",
             "children": [
               {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PenAttendifyError",
-                "printedName": "PenAttendify.PenAttendifyError",
-                "usr": "s:12PenAttendify0aB5ErrorO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PenAttendifyError",
-                "printedName": "PenAttendify.PenAttendifyError",
-                "usr": "s:12PenAttendify0aB5ErrorO"
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PenAttendify.PenAttendifyError.Type) -> PenAttendify.PenAttendifyError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PenAttendifyError",
+                    "printedName": "PenAttendify.PenAttendifyError",
+                    "usr": "s:12PenAttendify0aB5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PenAttendify.PenAttendifyError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PenAttendifyError",
+                        "printedName": "PenAttendify.PenAttendifyError",
+                        "usr": "s:12PenAttendify0aB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
               }
             ],
-            "declKind": "Func",
-            "usr": "s:12PenAttendify0aB5ErrorO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s12PenAttendify0aB5ErrorO2eeoiySbAC_ACtFZ",
+            "declKind": "EnumElement",
+            "usr": "s:12PenAttendify0aB5ErrorO06serverC0yA2CmF",
+            "mangledName": "$s12PenAttendify0aB5ErrorO06serverC0yA2CmF",
             "moduleName": "PenAttendify",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
+            "name": "unauthorized",
+            "printedName": "unauthorized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PenAttendify.PenAttendifyError.Type) -> PenAttendify.PenAttendifyError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PenAttendifyError",
+                    "printedName": "PenAttendify.PenAttendifyError",
+                    "usr": "s:12PenAttendify0aB5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PenAttendify.PenAttendifyError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PenAttendifyError",
+                        "printedName": "PenAttendify.PenAttendifyError",
+                        "usr": "s:12PenAttendify0aB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PenAttendify0aB5ErrorO12unauthorizedyA2CmF",
+            "mangledName": "$s12PenAttendify0aB5ErrorO12unauthorizedyA2CmF",
+            "moduleName": "PenAttendify",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "clientError",
+            "printedName": "clientError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PenAttendify.PenAttendifyError.Type) -> PenAttendify.PenAttendifyError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PenAttendifyError",
+                    "printedName": "PenAttendify.PenAttendifyError",
+                    "usr": "s:12PenAttendify0aB5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PenAttendify.PenAttendifyError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PenAttendifyError",
+                        "printedName": "PenAttendify.PenAttendifyError",
+                        "usr": "s:12PenAttendify0aB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PenAttendify0aB5ErrorO06clientC0yA2CmF",
+            "mangledName": "$s12PenAttendify0aB5ErrorO06clientC0yA2CmF",
+            "moduleName": "PenAttendify",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "networkError",
+            "printedName": "networkError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PenAttendify.PenAttendifyError.Type) -> (Swift.String) -> PenAttendify.PenAttendifyError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> PenAttendify.PenAttendifyError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PenAttendifyError",
+                        "printedName": "PenAttendify.PenAttendifyError",
+                        "usr": "s:12PenAttendify0aB5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(apiName: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PenAttendify.PenAttendifyError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PenAttendifyError",
+                        "printedName": "PenAttendify.PenAttendifyError",
+                        "usr": "s:12PenAttendify0aB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PenAttendify0aB5ErrorO07networkC0yACSS_tcACmF",
+            "mangledName": "$s12PenAttendify0aB5ErrorO07networkC0yACSS_tcACmF",
+            "moduleName": "PenAttendify",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hostError",
+            "printedName": "hostError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PenAttendify.PenAttendifyError.Type) -> (Swift.String) -> PenAttendify.PenAttendifyError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> PenAttendify.PenAttendifyError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PenAttendifyError",
+                        "printedName": "PenAttendify.PenAttendifyError",
+                        "usr": "s:12PenAttendify0aB5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(apiName: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PenAttendify.PenAttendifyError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PenAttendifyError",
+                        "printedName": "PenAttendify.PenAttendifyError",
+                        "usr": "s:12PenAttendify0aB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PenAttendify0aB5ErrorO04hostC0yACSS_tcACmF",
+            "mangledName": "$s12PenAttendify0aB5ErrorO04hostC0yACSS_tcACmF",
+            "moduleName": "PenAttendify",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "httpError",
+            "printedName": "httpError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PenAttendify.PenAttendifyError.Type) -> (Swift.String) -> PenAttendify.PenAttendifyError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> PenAttendify.PenAttendifyError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PenAttendifyError",
+                        "printedName": "PenAttendify.PenAttendifyError",
+                        "usr": "s:12PenAttendify0aB5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(apiName: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PenAttendify.PenAttendifyError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PenAttendifyError",
+                        "printedName": "PenAttendify.PenAttendifyError",
+                        "usr": "s:12PenAttendify0aB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PenAttendify0aB5ErrorO04httpC0yACSS_tcACmF",
+            "mangledName": "$s12PenAttendify0aB5ErrorO04httpC0yACSS_tcACmF",
+            "moduleName": "PenAttendify",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timeoutError",
+            "printedName": "timeoutError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PenAttendify.PenAttendifyError.Type) -> (Swift.String) -> PenAttendify.PenAttendifyError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> PenAttendify.PenAttendifyError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PenAttendifyError",
+                        "printedName": "PenAttendify.PenAttendifyError",
+                        "usr": "s:12PenAttendify0aB5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(apiName: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PenAttendify.PenAttendifyError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PenAttendifyError",
+                        "printedName": "PenAttendify.PenAttendifyError",
+                        "usr": "s:12PenAttendify0aB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PenAttendify0aB5ErrorO07timeoutC0yACSS_tcACmF",
+            "mangledName": "$s12PenAttendify0aB5ErrorO07timeoutC0yACSS_tcACmF",
+            "moduleName": "PenAttendify",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "responseBodyEmpty",
+            "printedName": "responseBodyEmpty",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PenAttendify.PenAttendifyError.Type) -> (Swift.String, Swift.String) -> PenAttendify.PenAttendifyError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.String) -> PenAttendify.PenAttendifyError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PenAttendifyError",
+                        "printedName": "PenAttendify.PenAttendifyError",
+                        "usr": "s:12PenAttendify0aB5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(apiName: Swift.String, message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PenAttendify.PenAttendifyError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PenAttendifyError",
+                        "printedName": "PenAttendify.PenAttendifyError",
+                        "usr": "s:12PenAttendify0aB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PenAttendify0aB5ErrorO17responseBodyEmptyyACSS_SStcACmF",
+            "mangledName": "$s12PenAttendify0aB5ErrorO17responseBodyEmptyyACSS_SStcACmF",
+            "moduleName": "PenAttendify",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unknownError",
+            "printedName": "unknownError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PenAttendify.PenAttendifyError.Type) -> (Swift.String, Swift.String) -> PenAttendify.PenAttendifyError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.String) -> PenAttendify.PenAttendifyError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PenAttendifyError",
+                        "printedName": "PenAttendify.PenAttendifyError",
+                        "usr": "s:12PenAttendify0aB5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(apiName: Swift.String, message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PenAttendify.PenAttendifyError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PenAttendifyError",
+                        "printedName": "PenAttendify.PenAttendifyError",
+                        "usr": "s:12PenAttendify0aB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PenAttendify0aB5ErrorO07unknownC0yACSS_SStcACmF",
+            "mangledName": "$s12PenAttendify0aB5ErrorO07unknownC0yACSS_SStcACmF",
+            "moduleName": "PenAttendify",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:12PenAttendify0aB5ErrorO9hashValueSivp",
-            "mangledName": "$s12PenAttendify0aB5ErrorO9hashValueSivp",
+            "usr": "s:12PenAttendify0aB5ErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s12PenAttendify0aB5ErrorO16errorDescriptionSSSgvp",
             "moduleName": "PenAttendify",
-            "implicit": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -883,44 +1574,27 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12PenAttendify0aB5ErrorO9hashValueSivg",
-                "mangledName": "$s12PenAttendify0aB5ErrorO9hashValueSivg",
+                "usr": "s:12PenAttendify0aB5ErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s12PenAttendify0aB5ErrorO16errorDescriptionSSSgvg",
                 "moduleName": "PenAttendify",
-                "implicit": true,
+                "isFromExtension": true,
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12PenAttendify0aB5ErrorO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s12PenAttendify0aB5ErrorO4hash4intoys6HasherVz_tF",
-            "moduleName": "PenAttendify",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
@@ -934,17 +1608,38 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
           }
         ]
       },
@@ -984,387 +1679,1194 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PenAttendify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PenAttendify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "PenAttendify"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BeaconData",
+        "printedName": "BeaconData",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(entity:insertInto:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BeaconData",
+                "printedName": "PenAttendify.BeaconData",
+                "usr": "c:@M@PenAttendify@objc(cs)BeaconData"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSEntityDescription",
+                "printedName": "CoreData.NSEntityDescription",
+                "usr": "c:objc(cs)NSEntityDescription"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreData.NSManagedObjectContext?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSManagedObjectContext",
+                    "printedName": "CoreData.NSManagedObjectContext",
+                    "usr": "c:objc(cs)NSManagedObjectContext"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PenAttendify@objc(cs)BeaconData(im)initWithEntity:insertIntoManagedObjectContext:",
+            "mangledName": "$s12PenAttendify10BeaconDataC6entity10insertIntoACSo19NSEntityDescriptionC_So22NSManagedObjectContextCSgtcfc",
+            "moduleName": "PenAttendify",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithEntity:insertIntoManagedObjectContext:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchRequest",
+            "printedName": "fetchRequest()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSFetchRequest",
+                "printedName": "CoreData.NSFetchRequest<PenAttendify.BeaconData>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BeaconData",
+                    "printedName": "PenAttendify.BeaconData",
+                    "usr": "c:@M@PenAttendify@objc(cs)BeaconData"
+                  }
+                ],
+                "usr": "c:objc(cs)NSFetchRequest"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PenAttendify10BeaconDataC12fetchRequestSo07NSFetchF0CyACGyFZ",
+            "mangledName": "$s12PenAttendify10BeaconDataC12fetchRequestSo07NSFetchF0CyACGyFZ",
+            "moduleName": "PenAttendify",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "NonObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@PenAttendify@objc(cs)BeaconData(py)id",
+            "mangledName": "$s12PenAttendify10BeaconDataC2ids5Int64Vvp",
+            "moduleName": "PenAttendify",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@PenAttendify@objc(cs)BeaconData(im)id",
+                "mangledName": "$s12PenAttendify10BeaconDataC2ids5Int64Vvg",
+                "moduleName": "PenAttendify",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@PenAttendify@objc(cs)BeaconData(im)setId:",
+                "mangledName": "$s12PenAttendify10BeaconDataC2ids5Int64Vvs",
+                "moduleName": "PenAttendify",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "major",
+            "printedName": "major",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@PenAttendify@objc(cs)BeaconData(py)major",
+            "mangledName": "$s12PenAttendify10BeaconDataC5majorSSSgvp",
+            "moduleName": "PenAttendify",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@PenAttendify@objc(cs)BeaconData(im)major",
+                "mangledName": "$s12PenAttendify10BeaconDataC5majorSSSgvg",
+                "moduleName": "PenAttendify",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@PenAttendify@objc(cs)BeaconData(im)setMajor:",
+                "mangledName": "$s12PenAttendify10BeaconDataC5majorSSSgvs",
+                "moduleName": "PenAttendify",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minor",
+            "printedName": "minor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@PenAttendify@objc(cs)BeaconData(py)minor",
+            "mangledName": "$s12PenAttendify10BeaconDataC5minorSSSgvp",
+            "moduleName": "PenAttendify",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@PenAttendify@objc(cs)BeaconData(im)minor",
+                "mangledName": "$s12PenAttendify10BeaconDataC5minorSSSgvg",
+                "moduleName": "PenAttendify",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@PenAttendify@objc(cs)BeaconData(im)setMinor:",
+                "mangledName": "$s12PenAttendify10BeaconDataC5minorSSSgvs",
+                "moduleName": "PenAttendify",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rssi",
+            "printedName": "rssi",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@PenAttendify@objc(cs)BeaconData(py)rssi",
+            "mangledName": "$s12PenAttendify10BeaconDataC4rssis5Int64Vvp",
+            "moduleName": "PenAttendify",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@PenAttendify@objc(cs)BeaconData(im)rssi",
+                "mangledName": "$s12PenAttendify10BeaconDataC4rssis5Int64Vvg",
+                "moduleName": "PenAttendify",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@PenAttendify@objc(cs)BeaconData(im)setRssi:",
+                "mangledName": "$s12PenAttendify10BeaconDataC4rssis5Int64Vvs",
+                "moduleName": "PenAttendify",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uuid",
+            "printedName": "uuid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@PenAttendify@objc(cs)BeaconData(py)uuid",
+            "mangledName": "$s12PenAttendify10BeaconDataC4uuidSSSgvp",
+            "moduleName": "PenAttendify",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@PenAttendify@objc(cs)BeaconData(im)uuid",
+                "mangledName": "$s12PenAttendify10BeaconDataC4uuidSSSgvg",
+                "moduleName": "PenAttendify",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@PenAttendify@objc(cs)BeaconData(im)setUuid:",
+                "mangledName": "$s12PenAttendify10BeaconDataC4uuidSSSgvs",
+                "moduleName": "PenAttendify",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "zoneId",
+            "printedName": "zoneId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@PenAttendify@objc(cs)BeaconData(py)zoneId",
+            "mangledName": "$s12PenAttendify10BeaconDataC6zoneIds5Int64Vvp",
+            "moduleName": "PenAttendify",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@PenAttendify@objc(cs)BeaconData(im)zoneId",
+                "mangledName": "$s12PenAttendify10BeaconDataC6zoneIds5Int64Vvg",
+                "moduleName": "PenAttendify",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@PenAttendify@objc(cs)BeaconData(im)setZoneId:",
+                "mangledName": "$s12PenAttendify10BeaconDataC6zoneIds5Int64Vvs",
+                "moduleName": "PenAttendify",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "zoneName",
+            "printedName": "zoneName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@PenAttendify@objc(cs)BeaconData(py)zoneName",
+            "mangledName": "$s12PenAttendify10BeaconDataC8zoneNameSSSgvp",
+            "moduleName": "PenAttendify",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@PenAttendify@objc(cs)BeaconData(im)zoneName",
+                "mangledName": "$s12PenAttendify10BeaconDataC8zoneNameSSSgvg",
+                "moduleName": "PenAttendify",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@PenAttendify@objc(cs)BeaconData(im)setZoneName:",
+                "mangledName": "$s12PenAttendify10BeaconDataC8zoneNameSSSgvs",
+                "moduleName": "PenAttendify",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PenAttendify@objc(cs)BeaconData",
+        "mangledName": "$s12PenAttendify10BeaconDataC",
+        "moduleName": "PenAttendify",
+        "objc_name": "BeaconData",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSManagedObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "CoreData.NSManagedObject",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PenAttendify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "PenAttendify"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PenAttendify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "PenAttendify"
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Enums\/ResourcePath.swift",
+      "kind": "StringLiteral",
+      "offset": 140,
+      "length": 21,
+      "value": "\"attendance\/settings\""
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Enums\/ResourcePath.swift",
+      "kind": "StringLiteral",
+      "offset": 187,
+      "length": 17,
+      "value": "\"attendance\/uuid\""
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Enums\/ResourcePath.swift",
+      "kind": "StringLiteral",
+      "offset": 224,
+      "length": 19,
+      "value": "\"attendance\/beacon\""
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Enums\/ResourcePath.swift",
+      "kind": "StringLiteral",
+      "offset": 261,
+      "length": 21,
+      "value": "\"log\/attendify\/event\""
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Enums\/ResourcePath.swift",
+      "kind": "StringLiteral",
+      "offset": 298,
+      "length": 19,
+      "value": "\"log\/attendify\/raw\""
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Log\/PIEventLog.swift",
+      "kind": "StringLiteral",
+      "offset": 225,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Log\/PIEventLog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 250,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Log\/PIEventLog.swift",
+      "kind": "StringLiteral",
+      "offset": 319,
+      "length": 6,
+      "value": "\"iPad\""
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Log\/PIEventLog.swift",
+      "kind": "StringLiteral",
+      "offset": 328,
+      "length": 8,
+      "value": "\"iPhone\""
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Log\/PIEventLog.swift",
+      "kind": "StringLiteral",
+      "offset": 365,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Log\/PIEventLog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 547,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Log\/PIEventLog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 552,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Log\/PIEventLog.swift",
+      "kind": "StringLiteral",
+      "offset": 707,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Log\/PIEventLog.swift",
+      "kind": "StringLiteral",
+      "offset": 736,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "Array",
-      "offset": 472,
+      "offset": 484,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "BooleanLiteral",
-      "offset": 496,
+      "offset": 508,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "FloatLiteral",
-      "offset": 524,
+      "offset": 536,
       "length": 7,
       "value": "-1000.0"
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 557,
+      "offset": 569,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 590,
+      "offset": 602,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
       "kind": "FloatLiteral",
-      "offset": 615,
+      "offset": 627,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
-      "kind": "BooleanLiteral",
-      "offset": 842,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1388,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1775,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2141,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2319,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2334,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2465,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2670,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2980,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3003,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3438,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3486,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3492,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BeaconScanner.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3706,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/ResponseModels\/TokenResponseModel.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Log\/PIRawLog.swift",
       "kind": "StringLiteral",
-      "offset": 248,
-      "length": 7,
-      "value": "\"Token\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/ResponseModels\/TokenResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 248,
-      "length": 7,
-      "value": "\"Token\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 170,
+      "offset": 226,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Log\/PIRawLog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 251,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Log\/PIRawLog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 277,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Log\/PIRawLog.swift",
       "kind": "StringLiteral",
-      "offset": 195,
+      "offset": 301,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Log\/PIRawLog.swift",
       "kind": "StringLiteral",
-      "offset": 219,
+      "offset": 326,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Log\/PIRawLog.swift",
       "kind": "StringLiteral",
-      "offset": 242,
+      "offset": 353,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Log\/PIRawLog.swift",
+      "kind": "StringLiteral",
+      "offset": 380,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Log\/PIRawLog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 408,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Log\/PIRawLog.swift",
       "kind": "StringLiteral",
       "offset": 437,
-      "length": 81,
+      "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 448,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 463,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Log\/PIRawLog.swift",
       "kind": "StringLiteral",
       "offset": 466,
-      "length": 9,
-      "value": "\"company\""
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Log\/PIRawLog.swift",
+      "kind": "StringLiteral",
+      "offset": 492,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/ResponseModels\/TokenResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 248,
+      "length": 7,
+      "value": "\"Token\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 476,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 479,
-      "length": 3,
-      "value": "\"1\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 483,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 517,
-      "length": 1,
+      "offset": 187,
+      "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 926,
-      "length": 28,
-      "value": "\"TagScannerPositionInterval\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1123,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1171,
-      "length": 23,
-      "value": "\"ZoneDecisionThreshold\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1393,
-      "length": 28,
-      "value": "\"AttendanceBeaconRssiCutOff\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1857,
-      "length": 86,
+      "offset": 212,
+      "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1868,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1883,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1886,
-      "length": 9,
-      "value": "\"company\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1896,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1899,
-      "length": 3,
-      "value": "\"1\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1903,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1942,
-      "length": 1,
+      "offset": 236,
+      "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 2479,
-      "length": 80,
+      "offset": 259,
+      "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 2490,
-      "length": 1,
-      "value": "\"\/\""
+      "offset": 279,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 2505,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2508,
-      "length": 9,
-      "value": "\"company\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2518,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2521,
-      "length": 3,
-      "value": "\"1\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2525,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/DataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2558,
-      "length": 1,
+      "offset": 302,
+      "length": 2,
       "value": "\"\""
     },
     {
@@ -1375,284 +2877,109 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Enums\/DateFormat.swift",
+      "kind": "StringLiteral",
+      "offset": 139,
+      "length": 21,
+      "value": "\"yyyy-MM-dd HH:mm:ss\""
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Enums\/DateFormat.swift",
+      "kind": "StringLiteral",
+      "offset": 192,
+      "length": 21,
+      "value": "\"yyyy_MM_dd_HH_mm_ss\""
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Enums\/HttpMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 131,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Enums\/HttpMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 153,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Enums\/HttpMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 177,
+      "length": 7,
+      "value": "\"PATCH\""
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/PIAttendify.swift",
       "kind": "BooleanLiteral",
-      "offset": 641,
+      "offset": 393,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/CoreDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 740,
-      "length": 13,
+      "offset": 285,
+      "length": 23,
+      "value": "\"PenAttendifyDataModel\""
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/CoreDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 435,
+      "length": 6,
+      "value": "\"momd\""
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/ResponseModels\/BeaconRegionsResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 315,
+      "length": 10,
+      "value": "\"UUIDData\""
+    },
+    {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Log\/PIPatchedEventLog.swift",
+      "kind": "StringLiteral",
+      "offset": 244,
+      "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 752,
-      "length": 4,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1093,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1133,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1438,
-      "length": 31,
-      "value": "\"Bearer \""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1468,
-      "length": 24,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1491,
-      "length": 15,
-      "value": "\"Authorization\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Log\/PIPatchedEventLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 1851,
-      "length": 3,
-      "value": "401"
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2674,
-      "length": 82,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2697,
+      "offset": 269,
       "length": 1,
-      "value": "\"\/\""
+      "value": "0"
     },
     {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2724,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2755,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2783,
-      "length": 6,
-      "value": "\"Name\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2797,
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Log\/PIPatchedEventLog.swift",
+      "kind": "BooleanLiteral",
+      "offset": 294,
       "length": 5,
-      "value": "\"Key\""
+      "value": "false"
     },
     {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Log\/PIPatchedEventLog.swift",
       "kind": "StringLiteral",
-      "offset": 3003,
+      "offset": 327,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Log\/PIPatchedEventLog.swift",
       "kind": "StringLiteral",
-      "offset": 3096,
-      "length": 5,
-      "value": "\"GET\""
+      "offset": 356,
+      "length": 2,
+      "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Enums\/APIMethod.swift",
       "kind": "StringLiteral",
-      "offset": 3118,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3096,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3118,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3176,
-      "length": 21,
-      "value": "\"attendance\/settings\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3223,
-      "length": 17,
-      "value": "\"attendance\/uuid\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3260,
-      "length": 19,
-      "value": "\"attendance\/beacon\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3176,
-      "length": 21,
-      "value": "\"attendance\/settings\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3223,
-      "length": 17,
-      "value": "\"attendance\/uuid\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3260,
-      "length": 19,
-      "value": "\"attendance\/beacon\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3328,
+      "offset": 134,
       "length": 22,
       "value": "\"AuthAPI.svc\/GetToken\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/APIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3328,
-      "length": 22,
-      "value": "\"AuthAPI.svc\/GetToken\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/PenAttendifyConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1521,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/PenAttendifyConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1594,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/PenAttendifyConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1665,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/PenAttendifyConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1734,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/PIAttendify.swift",
-      "kind": "BooleanLiteral",
-      "offset": 389,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/PIAttendify.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1456,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/PIAttendify.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2443,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BluetoothManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 480,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BluetoothManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 733,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/BluetoothManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 939,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/ResponseModels\/BeaconRegionsResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 315,
-      "length": 10,
-      "value": "\"UUIDData\""
-    },
-    {
-      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/ResponseModels\/BeaconRegionsResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 315,
-      "length": 10,
-      "value": "\"UUIDData\""
     }
   ]
 }
