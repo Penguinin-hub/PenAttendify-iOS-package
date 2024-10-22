@@ -1,8 +1,9 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
-// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PenAttendify
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PenAttendify
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import CoreBluetooth
+import CoreData
 import CoreLocation
 import Foundation
 @_exported import PenAttendify
@@ -10,8 +11,9 @@ import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 public class PenAttendifyConfiguration {
-  public init(baseUrl: Swift.String, serviceName: Swift.String, clientName: Swift.String, clientKey: Swift.String)
+  public init(baseUrl: Swift.String, serviceName: Swift.String, clientName: Swift.String, clientKey: Swift.String, userId: Swift.String, companyId: Swift.String)
   @objc deinit
 }
 public class PenAttendifyConfigurationBuilder {
@@ -20,6 +22,8 @@ public class PenAttendifyConfigurationBuilder {
   public func setServiceName(_ serviceName: Swift.String) -> Self
   public func setClientName(_ clientName: Swift.String) -> Self
   public func setClientKey(_ clientKey: Swift.String) -> Self
+  public func setUserId(_ userId: Swift.String) -> Self
+  public func setCompanyId(_ companyId: Swift.String) -> Self
   public func build() -> PenAttendify.PenAttendifyConfiguration
   @objc deinit
 }
@@ -34,19 +38,66 @@ public protocol PenAttendifyDelegate : AnyObject {
   public static func initialize(with configuration: PenAttendify.PenAttendifyConfiguration)
   public static func startScan()
   public static func stopScan()
+  public static func clearData()
   public static func deinitialize()
   public static func isInitialized() -> Swift.Bool
   @objc deinit
 }
-public enum PenAttendifyError {
+public enum PenAttendifyError : Swift.Error {
   case locationPermissionUnauthorized
   case bluetoothTurnedOff
   case serviceNotInitialized
-  public static func == (a: PenAttendify.PenAttendifyError, b: PenAttendify.PenAttendifyError) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+  case serverError
+  case unauthorized
+  case clientError
+  case networkError(apiName: Swift.String)
+  case hostError(apiName: Swift.String)
+  case httpError(apiName: Swift.String)
+  case timeoutError(apiName: Swift.String)
+  case responseBodyEmpty(apiName: Swift.String, message: Swift.String)
+  case unknownError(apiName: Swift.String, message: Swift.String)
+}
+extension PenAttendify.PenAttendifyError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
     get
   }
 }
-extension PenAttendify.PenAttendifyError : Swift.Equatable {}
-extension PenAttendify.PenAttendifyError : Swift.Hashable {}
+@_inheritsConvenienceInitializers @objc(BeaconData) public class BeaconData : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension PenAttendify.BeaconData {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<PenAttendify.BeaconData>
+  @objc @NSManaged dynamic public var id: Swift.Int64 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var major: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var minor: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var rssi: Swift.Int64 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var uuid: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var zoneId: Swift.Int64 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var zoneName: Swift.String? {
+    @objc get
+    @objc set
+  }
+}
+extension PenAttendify.BeaconData : Swift.Identifiable {
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  public typealias ID = Swift.Int64
+}
