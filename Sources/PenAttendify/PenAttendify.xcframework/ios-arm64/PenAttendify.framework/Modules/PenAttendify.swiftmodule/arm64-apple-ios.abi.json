@@ -2891,6 +2891,13 @@
       "value": "\"yyyy_MM_dd_HH_mm_ss\""
     },
     {
+      "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Log\/PIAnalyticsManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 238,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/fawzialrifai\/Developer\/PenguinIN\/PenAttendify\/PenAttendify\/PenAttendify\/Enums\/HttpMethod.swift",
       "kind": "StringLiteral",
       "offset": 131,
