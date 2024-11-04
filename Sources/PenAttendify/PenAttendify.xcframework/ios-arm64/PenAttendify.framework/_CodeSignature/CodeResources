@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PenAttendify-Swift.h</key>
 		<data>
-		G6IvAj5kfCzATMjBtA5ASvQLVho=
+		IQDk1mcNrnjBHfrbu4TpZVsb58I=
 		</data>
 		<key>Headers/PenAttendify.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vxH8WGylUgLA3vptwaGP3mtVUoA=
+		Da4mWEwngkJQAgOti/sB5p8NWC0=
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		7YwYrQS5MdkSgUIOC0lLq5cUM6M=
+		kX0H8ANAklMqWINUJJkOEDykgj8=
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		A4LGcVtS0A8toI1E+PbjA9gJDrw=
+		W3Xlp+WLYu7hdPzjY6T3M1SdF1w=
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		7YwYrQS5MdkSgUIOC0lLq5cUM6M=
+		kX0H8ANAklMqWINUJJkOEDykgj8=
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		wTcjY41voQdcng8XirLlvcNX9Is=
+		8MkkVqRzj9rVhUKuP/OyjqRTet4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>PenAttendifyDataModel.momd/PenAttendifyDataModel.mom</key>
 		<data>
-		e1K/HoDx8VvxrgL9U77aOgX17a4=
+		p4XJ/1HLsWlYDwjDfB4hHzgIKYg=
 		</data>
 		<key>PenAttendifyDataModel.momd/VersionInfo.plist</key>
 		<data>
@@ -55,7 +55,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jvMN1fh35XRH+GyMUUQuoS/3oK913FRd3sDBIlndpwg=
+			bxfW1jD88CQ8k7gYRe142voxMRENk/LHK2dsFLL0CMw=
 			</data>
 		</dict>
 		<key>Headers/PenAttendify.h</key>
@@ -76,28 +76,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IjVgTkJxPN+ffK/MPvZQUVKTMN/YMm29GN8D/T9XUvE=
+			QXhFmdLMwuwuzPjdwcTwoNWKTlHmXLvVOPBoTElqGUg=
 			</data>
 		</dict>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9UWrKB/R63tQsqA+0nlNa1ReNPN48jymqfXT5Lpr+wk=
+			tC72A+gegmUPCdc211BiPniMTsqFCf3Y1o9Le1p3FQw=
 			</data>
 		</dict>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IjVgTkJxPN+ffK/MPvZQUVKTMN/YMm29GN8D/T9XUvE=
+			QXhFmdLMwuwuzPjdwcTwoNWKTlHmXLvVOPBoTElqGUg=
 			</data>
 		</dict>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			80099c+IZy+HaorQ0hhNXyX3CdQCEPFrfhiT9+K6kcI=
+			uasG6KnaGcKCujdQRlabbaYb4KqXq1kXVjFPOkPMBb8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -111,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RxY9UM240R3Ad8hTslBdGaR8/ZtaBl7v5GtD9I0eee0=
+			kSghKEZUMscKmnS3NR2mkOPrXaLZPvA5XNGK+tI60XQ=
 			</data>
 		</dict>
 		<key>PenAttendifyDataModel.momd/VersionInfo.plist</key>

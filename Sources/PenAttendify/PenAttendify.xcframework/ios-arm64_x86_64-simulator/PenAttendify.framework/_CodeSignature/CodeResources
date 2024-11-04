@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PenAttendify-Swift.h</key>
 		<data>
-		QTp6ZYimWF3825Mo3V5bjoO6QQs=
+		dQ24E+9Uw7KNZWUic2bqkb94DVc=
 		</data>
 		<key>Headers/PenAttendify.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gydHVGhUCZVj60NQZ6cL4mVoJ34=
+		ZHdhGwPEnRehCMuJlhpUrjfduAQ=
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		YcYuf3x03bEBO1vh2DcTOhPxBv8=
+		YL3JR/j8UqcGtM6NTznN9BP9Rxw=
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		i/p7oXR2x6KdXtJWN+cMJ6r6Wc0=
+		WJaDN00AurgMaxR+lv49OIgFodU=
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		YcYuf3x03bEBO1vh2DcTOhPxBv8=
+		YL3JR/j8UqcGtM6NTznN9BP9Rxw=
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		68Y5XFLVppcb/pNhJSdg/7TnA8U=
+		fYVyLuKXIQzEKINiPaqwmL99WMY=
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -42,19 +42,19 @@
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		fByk6cS08dt1NzEM/ht7LIAxfxU=
+		VKlgo1WuVm3zb7LhIhQpMdm6bLU=
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		qP8EW3TO0WyJc1HAninGtK4myJE=
+		01CoAFOuytdouO2WL/1Y3+09uNo=
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		fByk6cS08dt1NzEM/ht7LIAxfxU=
+		VKlgo1WuVm3zb7LhIhQpMdm6bLU=
 		</data>
 		<key>Modules/PenAttendify.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zsjRpKvWQB9cOUbwKLcNfIXEJOE=
+		w4MF4chgAkdXN6SPM8EMgGCK5CI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>PenAttendifyDataModel.momd/PenAttendifyDataModel.mom</key>
 		<data>
-		e1K/HoDx8VvxrgL9U77aOgX17a4=
+		p4XJ/1HLsWlYDwjDfB4hHzgIKYg=
 		</data>
 		<key>PenAttendifyDataModel.momd/VersionInfo.plist</key>
 		<data>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Svp8Bhpu3epeR52PXzML/rZ9mlQyqQwmk4t3b2Okxak=
+			6js/RCCeOoZT43s+LNvXkxI54b8r8WXsXJ+MSIrq8JI=
 			</data>
 		</dict>
 		<key>Headers/PenAttendify.h</key>
@@ -96,28 +96,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2PzLzytEk9JA++SrqBK/nZcdYYKPvN2oRiPOPcaXmN0=
+			iKYIkBjiot2wa8OBLqXhYQHQIoB/hnjyiPnI/atcq7g=
 			</data>
 		</dict>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MCAC3bnLZxUSviw/LXpubxzztls48akJMewQ2ocGQbs=
+			6XDankKn5H6gY47ocyUfkgSy+MdGvNWzJk7DyOr/Esg=
 			</data>
 		</dict>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2PzLzytEk9JA++SrqBK/nZcdYYKPvN2oRiPOPcaXmN0=
+			iKYIkBjiot2wa8OBLqXhYQHQIoB/hnjyiPnI/atcq7g=
 			</data>
 		</dict>
 		<key>Modules/PenAttendify.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fs8UEmB6flKz5DEkkOiAliwDLaWGHkhiyppajUuPIvA=
+			RS+TZQAIJYCoqsGuXmUhQ90bA2yYwqZR2JSl6Hz6QJM=
 			</data>
 		</dict>
 		<key>Modules/PenAttendify.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -131,28 +131,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y9JBI5QhHED6DmEtYGbxdh+GuJ3Rdait6ROJ6MdHeyU=
+			/UBvBMvu250+JANBoX7V0qm5CYh/g4OQ/u6mLE1nrwE=
 			</data>
 		</dict>
 		<key>Modules/PenAttendify.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jaZ++fIf5g4wqMj08pJHK/Rb/FOOKsOMxQFl0mT8jXQ=
+			wGiicaJeHzL9TulRwFMz9OWFdzuRtBbg0cJZHuWjo5E=
 			</data>
 		</dict>
 		<key>Modules/PenAttendify.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y9JBI5QhHED6DmEtYGbxdh+GuJ3Rdait6ROJ6MdHeyU=
+			/UBvBMvu250+JANBoX7V0qm5CYh/g4OQ/u6mLE1nrwE=
 			</data>
 		</dict>
 		<key>Modules/PenAttendify.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N4jUow/c9AN24GIKGPne6LqWeFrT9iG3wHOObQbtj0A=
+			3ESvkB/lQ4jyKdFFIJT2J4McdBCLv2UrptS6PWqrX0w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -166,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RxY9UM240R3Ad8hTslBdGaR8/ZtaBl7v5GtD9I0eee0=
+			kSghKEZUMscKmnS3NR2mkOPrXaLZPvA5XNGK+tI60XQ=
 			</data>
 		</dict>
 		<key>PenAttendifyDataModel.momd/VersionInfo.plist</key>
