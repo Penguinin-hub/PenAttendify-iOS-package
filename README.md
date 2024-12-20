@@ -81,13 +81,17 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
     let configuration = PenAttendifyConfiguration(baseUrl: "your_base_url",
                                                   serviceName: "your_service_name",
                                                   clientName: "your_client_name",
-                                                  clientKey: "your_client_key")
+                                                  clientKey: "your_client_key",
+                                                  syncEnabled: false)
     
     PIAttendify.initialize(with: configuration)
     
     return true
 }
 ```
+The `syncEnabled` property in the `PenAttendifyConfiguration` class determines the data-fetching strategy for the SDK.
+- `false`: Prioritizes fetching data from the local database for better performance and offline support, falling back to the API only if the data has not been fetched previously.
+- `true`: Always fetches the latest data from the API, ensuring up-to-date information but with higher network usage.
 
 ### Start Scanning
 
@@ -303,7 +307,3 @@ A: If you don't set the delegate for PenAttendify, your app will not receive del
 ## Contact & Troubleshooting
 
 If you encounter any issues or need further assistance, please refer to the [FAQs](#faqs) section or contact our support team at devsupport@penguinin.com.
-
-
----
-
