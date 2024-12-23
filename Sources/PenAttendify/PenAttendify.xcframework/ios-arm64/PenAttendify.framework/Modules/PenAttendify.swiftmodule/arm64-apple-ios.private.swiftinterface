@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PenAttendify
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import CoreBluetooth
@@ -13,7 +13,7 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 public class PenAttendifyConfiguration {
-  public init(baseUrl: Swift.String, serviceName: Swift.String, clientName: Swift.String, clientKey: Swift.String, userId: Swift.String, companyId: Swift.String)
+  public init(baseUrl: Swift.String, serviceName: Swift.String, clientName: Swift.String, clientKey: Swift.String, userId: Swift.String, companyId: Swift.String, syncEnabled: Swift.Bool)
   @objc deinit
 }
 public class PenAttendifyConfigurationBuilder {
@@ -24,6 +24,7 @@ public class PenAttendifyConfigurationBuilder {
   public func setClientKey(_ clientKey: Swift.String) -> Self
   public func setUserId(_ userId: Swift.String) -> Self
   public func setCompanyId(_ companyId: Swift.String) -> Self
+  public func syncEnabled(_ syncEnabled: Swift.Bool) -> Self
   public func build() -> PenAttendify.PenAttendifyConfiguration
   @objc deinit
 }
@@ -99,4 +100,50 @@ extension PenAttendify.BeaconData {
 }
 extension PenAttendify.BeaconData : Swift.Identifiable {
   public typealias ID = Swift.Int64
+}
+@_inheritsConvenienceInitializers @objc(BeaconRegionData) public class BeaconRegionData : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension PenAttendify.BeaconRegionData {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<PenAttendify.BeaconRegionData>
+  @objc @NSManaged dynamic public var uuid: Swift.String? {
+    @objc get
+    @objc set
+  }
+}
+extension PenAttendify.BeaconRegionData : Swift.Identifiable {
+  public typealias ID = Swift.ObjectIdentifier
+}
+@_inheritsConvenienceInitializers @objc(SettingData) public class SettingData : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension PenAttendify.SettingData {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<PenAttendify.SettingData>
+  @objc @NSManaged dynamic public var key: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var value: Swift.String? {
+    @objc get
+    @objc set
+  }
+}
+extension PenAttendify.SettingData : Swift.Identifiable {
+  public typealias ID = Swift.ObjectIdentifier
+}
+@_inheritsConvenienceInitializers @objc(TokenData) public class TokenData : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension PenAttendify.TokenData {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<PenAttendify.TokenData>
+  @objc @NSManaged dynamic public var token: Swift.String? {
+    @objc get
+    @objc set
+  }
+}
+extension PenAttendify.TokenData : Swift.Identifiable {
+  public typealias ID = Swift.ObjectIdentifier
 }
